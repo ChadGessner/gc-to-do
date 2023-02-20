@@ -1,0 +1,98 @@
+<div class="to-do-body">
+    
+    <table>
+        
+        <span>
+            <h2 class="flex col">
+                <span>TODO List</span>
+                <span class="txt-small">A place to store your TO DOs </span>
+            </h2>
+            <label name="filter controls">Filter Controls</label>
+            <form 
+            class="flex col"
+            #formMessage="ngForm" 
+            (ngSubmit)="onSubmit(formMessage)" novalidate >
+            <div class="flex row justify-between">
+                <button 
+                    (click)="onTruthiness()"
+                    name="Truthiness"
+                    class="bunton">Truthiness</button>
+                <button 
+                    
+                    name="Falsiness"
+                    class="bunton">Falsiness</button>
+                <button 
+                     
+                    name="TaskName"
+                    class="bunton">Task Name</button>
+            </div>
+                
+                <input 
+                class="form"
+                name="stuff"
+               ngModel
+                 >
+                 <div class="bunton-container">
+                    <button class="bunton"   >Filter</button>
+                 </div>
+                 
+            </form >
+        </span>
+        
+        
+    <table (toDosEvent)="getToDos($event)" class="to-do-list" *ngFor="let todo of getFilteredOrDefault();index as i">
+        <li class="to-do-item" >
+            
+            <span 
+            class="txt-row" >
+                <span 
+                [ngStyle]="{ color: 'green' }"
+                *ngIf="todo.completed" ><fa-icon 
+                    [icon]="faCheck"></fa-icon>
+                    <span 
+                    class="complete-text" >Complete</span>
+                    {{todo.task}}
+                </span>
+                <span 
+                [ngStyle]="{ color: 'red' }" 
+                *ngIf="!todo.completed">
+                    <fa-icon 
+                    [icon]="faBomb"></fa-icon>
+                    <span 
+                    [ngStyle]="{ border : '1px solid red', color : 'red' }"
+                    class="complete-text" >incomplete</span>
+                    {{todo.task}}
+                </span>
+                
+                <span 
+                *ngIf="!todo.completed"
+                
+                class="flex justify-end" >
+                    <button 
+                    (click)="completeTask(i)"
+                    class="complete-bunton" >Complete</button>
+                </span>
+                <span 
+                *ngIf="todo.completed"
+                [ngStyle]="{ color: 'grey' }"
+                class="txt-right" ><a (click)="deleteToDo(i)" >
+                    <fa-icon 
+                    [icon]="faX"></fa-icon></a></span>
+                </span>
+        </li>
+        <div>
+            <hr>
+        </div>
+    </table>
+    <input 
+    class="form"
+    [(ngModel)]="newToDo"
+    type="text"/>
+    <div class="bunton-container" >
+        <button (click)="addToDo(newToDo)" class="bunton" >Add</button>
+    </div>
+    
+</table>
+
+</div>
+<div *ngIf="apiCompleted" >{{apiCompleted}}</div>

@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+$dark-grey: #bbb;
+$grey: #eee;
+$candy-red: #ff0000;
+$lipstick-pink: #ff69b4;
+$pinker: #ff1493;
+
+body {
+    font-family: Open Sans;
+    font-weight: 300;
+    background: linear-gradient(to right, #f857a6, #ff5858);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+}
+h1 {
+    width: 90%;
+    background-color: $dark-grey;
+    text-align: center;
+}
+
+.txt-small {
+    font-size: small;
+}
+.flex {
+    display: flex;
+}
+.col {
+    flex-flow: column;
+}
+.row {
+    flex-flow: row;
+}
+.justify-between {
+    justify-content: space-between;
+}

@@ -1,0 +1,128 @@
+$dark-grey: #bbb;
+$grey: #eee;
+$candy-red: #ff0000;
+$lipstick-pink: #ff69b4;
+$pinker: #ff1493;
+
+@import url('https://fonts.googleapis.com/css?family=Open Sans:300,400,700');
+* {
+    background-color: white;
+}
+.flex {
+    display: flex;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.complete-text {
+    border: .1px solid $lipstick-pink;
+    margin-left: 4px;
+    border-radius: 1px;
+    color: $lipstick-pink;
+    font-size:x-small;
+    padding: 1px;
+}
+
+.complete-bunton:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.complete-bunton:active {
+    transform: translate(1px, 1px);
+}
+
+.complete-bunton {
+    width: 100px;
+    border-radius: 4px;
+    background-color: $pinker;
+    color:white;
+    border:none;
+    box-shadow: 0px 0px 5px 0px black;
+    margin-bottom: 10px;
+}
+
+.form {
+    width: 50vw;
+    border: .5px solid $dark-grey;
+    border-radius: 4px;
+    width: 60vw;
+    height: 25px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    color: $dark-grey;
+}
+
+.to-do-body {
+    display: flex;
+    border: 1px solid $dark-grey;
+    border-radius: 3px;
+    flex-flow: column wrap;
+    min-width: 90%;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: 0px 0px 5px 0px black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.to-do-list {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 60vw;
+}
+
+.txt-row {
+    width:100%;
+    min-width:100%;
+    justify-content: space-between;
+    flex-flow: row;
+    display:flex;
+}
+
+.to-do-item {
+     list-style: none;
+    // text-align: start;
+     min-width: 60vw;
+    // justify-content: space-between;
+     display:flex;
+     flex-flow:row wrap;
+    // height: 10vh;
+}
+
+.txt-right {
+    text-align: end;
+    width: 100%;
+    width:max-content;
+}
+
+.bunton {
+    width: 100%;
+    border-radius: 4px;
+    background-color: $pinker;
+    color:white;
+    border:none;
+    box-shadow: 0px 0px 5px 0px black;
+    margin-bottom: 10px;
+}
+
+.bunton:active {
+    transform: translate(1px, 1px);
+}
+
+.bunton:hover {
+    background-color: $lipstick-pink;
+    cursor: pointer;
+}
+
+.bunton-container {
+    display:flex;
+    flex-flow:row-wrap;
+    min-width:100%;
+    justify-content: center;
+    height: 50px;
+}

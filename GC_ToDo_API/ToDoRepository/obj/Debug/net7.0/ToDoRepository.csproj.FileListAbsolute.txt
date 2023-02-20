@@ -15,3 +15,20 @@ C:\Users\Chad\Desktop\Grand Circus\GC_ToDo_API\ToDoRepository\obj\Debug\net7.0\r
 C:\Users\Chad\Desktop\Grand Circus\GC_ToDo_API\ToDoRepository\obj\Debug\net7.0\ToDoRepository.pdb
 C:\Users\Chad\Desktop\Grand Circus\GC_ToDo_API\ToDoRepository\obj\Debug\net7.0\ToDoRepository.genruntimeconfig.cache
 C:\Users\Chad\Desktop\Grand Circus\GC_ToDo_API\ToDoRepository\obj\Debug\net7.0\ref\ToDoRepository.dll
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoRepository\bin\Debug\net7.0\ToDoRepository.deps.json
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoRepository\bin\Debug\net7.0\ToDoRepository.runtimeconfig.json
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoRepository\bin\Debug\net7.0\ToDoRepository.dll
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoRepository\bin\Debug\net7.0\ToDoRepository.pdb
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoRepository\bin\Debug\net7.0\ToDoModels.dll
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoRepository\bin\Debug\net7.0\ToDoModels.pdb
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoRepository\obj\Debug\net7.0\ToDoRepository.csproj.AssemblyReference.cache
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoRepository\obj\Debug\net7.0\ToDoRepository.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoRepository\obj\Debug\net7.0\ToDoRepository.AssemblyInfoInputs.cache
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoRepository\obj\Debug\net7.0\ToDoRepository.AssemblyInfo.cs
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoRepository\obj\Debug\net7.0\ToDoRepository.csproj.CoreCompileInputs.cache
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoRepository\obj\Debug\net7.0\ToDoRepository.csproj.CopyComplete
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoRepository\obj\Debug\net7.0\ToDoRepository.dll
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoRepository\obj\Debug\net7.0\refint\ToDoRepository.dll
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoRepository\obj\Debug\net7.0\ToDoRepository.pdb
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoRepository\obj\Debug\net7.0\ToDoRepository.genruntimeconfig.cache
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoRepository\obj\Debug\net7.0\ref\ToDoRepository.dll

@@ -18,8 +18,11 @@ export class ApiService implements OnInit {
         return this.toDosEvent.emit(this.ToDos)
     }
     addToDo(task:string, completed:boolean){
+        console.log(this.addUrl + `/${task.split(' ').join('%20')}/${completed}`);
+        
         this.http.post(this.addUrl + `/${task.split(' ').join('%20')}/${completed}`, {task, completed}, {'headers':{'accept' : 'text/plain', 'content-type' : 'text/plain'}})
         .subscribe()
+        
     }
     getToDos = ():Observable<ToDo[]> => {
         this.ToDos = [];
@@ -31,6 +34,7 @@ export class ApiService implements OnInit {
                         console.log(responseData[key])
                         this.ToDos.push(responseData[key])
                     }
+                    console.log(this.ToDos)
                     return this.ToDos.slice(); 
                 }
             )

@@ -1,0 +1,47 @@
+<table 
+
+class="to-do-list" 
+*ngFor="let todo of toDos;index as i">
+    <li class="to-do-item" >
+        
+        <span 
+        class="txt-row" >
+            <span 
+            [ngStyle]="{ color: 'green' }"
+            *ngIf="todo.completed" ><fa-icon 
+                [icon]="faCheck"></fa-icon>
+                <span 
+                class="complete-text" >Complete</span>
+                {{todo.task}}
+            </span>
+            <span 
+            [ngStyle]="{ color: 'red' }" 
+            *ngIf="!todo.completed">
+                <fa-icon 
+                [icon]="faBomb"></fa-icon>
+                <span 
+                [ngStyle]="{ border : '1px solid red', color : 'red' }"
+                class="complete-text" >incomplete</span>
+                {{todo.task}}
+            </span>
+            
+            <span 
+            *ngIf="!todo.completed"
+            
+            class="flex justify-end" >
+                <button 
+                (click)="completeTask(i)"
+                class="complete-bunton" >Complete</button>
+            </span>
+            <span 
+            *ngIf="todo.completed"
+            [ngStyle]="{ color: 'grey' }"
+            class="txt-right" ><a (click)="deleteToDo(i)">
+                <fa-icon 
+                [icon]="faX"></fa-icon></a></span>
+            </span>
+    </li>
+    <div>
+        <hr>
+    </div>
+</table>

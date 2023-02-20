@@ -38,7 +38,7 @@ namespace ToDoRepository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("toDoDTOs");
+                    b.ToTable("toDoDTOs", (string)null);
                 });
 #pragma warning restore 612, 618
         }

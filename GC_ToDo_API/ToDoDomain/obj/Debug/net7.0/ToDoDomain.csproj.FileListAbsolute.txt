@@ -15,3 +15,20 @@ C:\Users\Chad\Desktop\Grand Circus\GC_ToDo_API\ToDoDomain\obj\Debug\net7.0\ToDoD
 C:\Users\Chad\Desktop\Grand Circus\GC_ToDo_API\ToDoDomain\obj\Debug\net7.0\refint\ToDoDomain.dll
 C:\Users\Chad\Desktop\Grand Circus\GC_ToDo_API\ToDoDomain\obj\Debug\net7.0\ToDoDomain.pdb
 C:\Users\Chad\Desktop\Grand Circus\GC_ToDo_API\ToDoDomain\obj\Debug\net7.0\ref\ToDoDomain.dll
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoDomain\bin\Debug\net7.0\ToDoDomain.deps.json
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoDomain\bin\Debug\net7.0\ToDoDomain.dll
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoDomain\bin\Debug\net7.0\ToDoDomain.pdb
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoDomain\bin\Debug\net7.0\ToDoModels.dll
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoDomain\bin\Debug\net7.0\ToDoRepository.dll
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoDomain\bin\Debug\net7.0\ToDoModels.pdb
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoDomain\bin\Debug\net7.0\ToDoRepository.pdb
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoDomain\obj\Debug\net7.0\ToDoDomain.csproj.AssemblyReference.cache
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoDomain\obj\Debug\net7.0\ToDoDomain.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoDomain\obj\Debug\net7.0\ToDoDomain.AssemblyInfoInputs.cache
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoDomain\obj\Debug\net7.0\ToDoDomain.AssemblyInfo.cs
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoDomain\obj\Debug\net7.0\ToDoDomain.csproj.CoreCompileInputs.cache
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoDomain\obj\Debug\net7.0\ToDoDomain.csproj.CopyComplete
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoDomain\obj\Debug\net7.0\ToDoDomain.dll
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoDomain\obj\Debug\net7.0\refint\ToDoDomain.dll
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoDomain\obj\Debug\net7.0\ToDoDomain.pdb
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoDomain\obj\Debug\net7.0\ref\ToDoDomain.dll

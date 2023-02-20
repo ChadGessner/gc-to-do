@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\GC_ToDo_API\\GC_ToDo_API.csproj": {}
+    "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\GC_ToDo_API\\GC_ToDo_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\GC_ToDo_API\\GC_ToDo_API.csproj": {
+    "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\GC_ToDo_API\\GC_ToDo_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\GC_ToDo_API\\GC_ToDo_API.csproj",
+        "projectUniqueName": "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\GC_ToDo_API\\GC_ToDo_API.csproj",
         "projectName": "GC_ToDo_API",
-        "projectPath": "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\GC_ToDo_API\\GC_ToDo_API.csproj",
-        "packagesPath": "C:\\Users\\Chad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\GC_ToDo_API\\obj\\",
+        "projectPath": "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\GC_ToDo_API\\GC_ToDo_API.csproj",
+        "packagesPath": "C:\\Users\\CGess\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\GC_ToDo_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Chad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CGess\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +33,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoDomain\\ToDoDomain.csproj": {
-                "projectPath": "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoDomain\\ToDoDomain.csproj"
+              "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoDomain\\ToDoDomain.csproj": {
+                "projectPath": "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoDomain\\ToDoDomain.csproj"
               },
-              "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj": {
-                "projectPath": "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj"
+              "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj": {
+                "projectPath": "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj"
               }
             }
           }
@@ -90,20 +90,20 @@
         }
       }
     },
-    "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoDomain\\ToDoDomain.csproj": {
+    "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoDomain\\ToDoDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoDomain\\ToDoDomain.csproj",
+        "projectUniqueName": "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoDomain\\ToDoDomain.csproj",
         "projectName": "ToDoDomain",
-        "projectPath": "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoDomain\\ToDoDomain.csproj",
-        "packagesPath": "C:\\Users\\Chad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoDomain\\obj\\",
+        "projectPath": "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoDomain\\ToDoDomain.csproj",
+        "packagesPath": "C:\\Users\\CGess\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Chad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CGess\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -119,11 +119,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj": {
-                "projectPath": "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj"
+              "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj": {
+                "projectPath": "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj"
               },
-              "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoRepository\\ToDoRepository.csproj": {
-                "projectPath": "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoRepository\\ToDoRepository.csproj"
+              "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoRepository\\ToDoRepository.csproj": {
+                "projectPath": "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoRepository\\ToDoRepository.csproj"
               }
             }
           }
@@ -157,20 +157,20 @@
         }
       }
     },
-    "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj": {
+    "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj",
+        "projectUniqueName": "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj",
         "projectName": "ToDoModels",
-        "projectPath": "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj",
-        "packagesPath": "C:\\Users\\Chad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoModels\\obj\\",
+        "projectPath": "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj",
+        "packagesPath": "C:\\Users\\CGess\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Chad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CGess\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -217,20 +217,20 @@
         }
       }
     },
-    "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoRepository\\ToDoRepository.csproj": {
+    "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoRepository\\ToDoRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoRepository\\ToDoRepository.csproj",
+        "projectUniqueName": "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoRepository\\ToDoRepository.csproj",
         "projectName": "ToDoRepository",
-        "projectPath": "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoRepository\\ToDoRepository.csproj",
-        "packagesPath": "C:\\Users\\Chad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoRepository\\obj\\",
+        "projectPath": "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoRepository\\ToDoRepository.csproj",
+        "packagesPath": "C:\\Users\\CGess\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoRepository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Chad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CGess\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -246,8 +246,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj": {
-                "projectPath": "C:\\Users\\Chad\\Desktop\\Grand Circus\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj"
+              "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj": {
+                "projectPath": "D:\\source\\repos\\gc-to-do\\GC_ToDo_API\\ToDoModels\\ToDoModels.csproj"
               }
             }
           }

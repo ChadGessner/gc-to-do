@@ -18,29 +18,27 @@
                     name="Truthiness"
                     class="bunton">Truthiness</button>
                 <button 
-                    
+                    (click)="onFalsiness()"
                     name="Falsiness"
                     class="bunton">Falsiness</button>
-                <button 
-                     
-                    name="TaskName"
-                    class="bunton">Task Name</button>
+                
             </div>
                 
                 <input 
                 class="form"
-                name="stuff"
-               ngModel
+                name="task name"
+               [(ngModel)]="taskName"
                  >
                  <div class="bunton-container">
-                    <button class="bunton"   >Filter</button>
+                    <button class="bunton" (click)="onFilterByTaskName()"  >Filter</button>
                  </div>
                  
             </form >
         </span>
         
-        
-    <table (toDosEvent)="getToDos($event)" class="to-do-list" *ngFor="let todo of getFilteredOrDefault();index as i">
+        <app-unfiltered *ngIf="!isFiltersToDos" [toDos]="toDos" ></app-unfiltered>
+        <app-filtered *ngIf="isFiltersToDos" [toDos]="filteredToDos"></app-filtered>
+    <!-- <table (toDosEvent)="getToDos($event)" class="to-do-list" *ngFor="let todo of getFilteredOrDefault();index as i">
         <li class="to-do-item" >
             
             <span 
@@ -83,7 +81,7 @@
         <div>
             <hr>
         </div>
-    </table>
+    </table>-->
     <input 
     class="form"
     [(ngModel)]="newToDo"
@@ -92,7 +90,7 @@
         <button (click)="addToDo(newToDo)" class="bunton" >Add</button>
     </div>
     
-</table>
+</table> 
 
 </div>
 <div *ngIf="apiCompleted" >{{apiCompleted}}</div>

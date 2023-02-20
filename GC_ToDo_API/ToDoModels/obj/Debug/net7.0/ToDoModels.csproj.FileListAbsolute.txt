@@ -10,3 +10,15 @@ C:\Users\Chad\Desktop\Grand Circus\GC_ToDo_API\ToDoModels\obj\Debug\net7.0\ToDoM
 C:\Users\Chad\Desktop\Grand Circus\GC_ToDo_API\ToDoModels\obj\Debug\net7.0\refint\ToDoModels.dll
 C:\Users\Chad\Desktop\Grand Circus\GC_ToDo_API\ToDoModels\obj\Debug\net7.0\ToDoModels.pdb
 C:\Users\Chad\Desktop\Grand Circus\GC_ToDo_API\ToDoModels\obj\Debug\net7.0\ref\ToDoModels.dll
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoModels\bin\Debug\net7.0\ToDoModels.deps.json
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoModels\bin\Debug\net7.0\ToDoModels.dll
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoModels\bin\Debug\net7.0\ToDoModels.pdb
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoModels\obj\Debug\net7.0\ToDoModels.csproj.AssemblyReference.cache
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoModels\obj\Debug\net7.0\ToDoModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoModels\obj\Debug\net7.0\ToDoModels.AssemblyInfoInputs.cache
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoModels\obj\Debug\net7.0\ToDoModels.AssemblyInfo.cs
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoModels\obj\Debug\net7.0\ToDoModels.csproj.CoreCompileInputs.cache
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoModels\obj\Debug\net7.0\ToDoModels.dll
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoModels\obj\Debug\net7.0\refint\ToDoModels.dll
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoModels\obj\Debug\net7.0\ToDoModels.pdb
+D:\source\repos\gc-to-do\GC_ToDo_API\ToDoModels\obj\Debug\net7.0\ref\ToDoModels.dll

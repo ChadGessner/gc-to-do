@@ -22,39 +22,61 @@ export class ToDoComponent implements OnInit {
   faX:IconDefinition = faX;
   @Input()stuff:string = ''
   formMessage:string = 'filter your todos'
+  taskName:string = 'task name'
   newToDo:string = 'add todo'
   isFiltersToDos:boolean = false;
+  filterByTruthy:boolean = true;
+  filteredToDos:ToDo[] = [] // or static [ { task: t, completed: false }, { task: a, completed: false }, { task: s, completed: true  }, {task: this assignment, completed: true}, { task: stuff, completed: false }, { task: things, completed: true } ]
   @Input()apiCompleted:ToDo[] | undefined = undefined;
    toDos:ToDo[] = []
   constructor(private api:ApiService) { 
     
   }
+  // filterClick() {
+  //   this.isFiltersToDos = true;
+    
+  //     this.filteredToDos = this.filterByTruthy ? this.toDos.filter(
+  //       x => x.completed 
+  //     ) : this.toDos.filter(
+  //       x => !x.completed 
+  //     )
+  // }
   onTruthiness() {
-    this.isFiltersToDos = !this.isFiltersToDos;
-    this.stuff = `${this.isFiltersToDos}` + this.stuff;
+    if(!this.filterByTruthy){
+      this.isFiltersToDos = true;
+      this.filterByTruthy = true;
+      this.filteredToDos = this.toDos.filter(x => x.completed === this.filterByTruthy)
+    }else if(this.isFiltersToDos){
+      this.isFiltersToDos = false;
+    }
   }
+
+  onFilterByTaskName() {
+    this.isFiltersToDos = true;
+    this.filteredToDos = this.toDos.filter(x => x.task.toLowerCase().includes(this.taskName.toLowerCase()))
+  }
+
   onSubmit(formMessage:NgForm) {
     console.log(formMessage)
   }
-  getFilteredOrDefault() {
-    return this.isFiltersToDos ? this.toDos.filter(x => x.completed) : this.toDos;
-  }
+
   getToDos(event:Event){
     this.api.getToDos();
     this.onApiUpdate();
     
   }
-  deleteToDo(index:number){
-    this.api.deleteToDo(this.toDos[index].task);
-    this.toDos = this.toDos.slice(0,index).concat(this.toDos.slice(index + 1))
-    this.onApiUpdate();
-  } 
   
-  completeTask(index:number) {
-    let toUpdate:ToDo = this.toDos[index];
-    this.api.updateToDo(toUpdate.task, !toUpdate.completed, null)
-    this.toDos[index].completed = true;
+  onFalsiness() {
+    if(this.filterByTruthy){
+      this.isFiltersToDos = true;
+      this.filterByTruthy = false;
+      this.filteredToDos = this.toDos.filter(x => x.completed === this.filterByTruthy)
+    }else if(this.isFiltersToDos){
+      this.isFiltersToDos = false;
+    }
+    
   }
+
   addToDo(task:string){
     this.api.addToDo(task, false);
     this.toDos.push({
@@ -67,8 +89,6 @@ export class ToDoComponent implements OnInit {
   }
   onApiUpdate(){
     this.api.getToDos();
-    
-    
   }
   ngOnInit(): void {
     this.api.getToDos().subscribe((data: ToDo[])=> this.toDos = data);

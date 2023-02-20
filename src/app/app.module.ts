@@ -7,10 +7,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ToDoComponent } from './to-do/to-do.component';
 import { ApiService } from './api.service';
 import { HttpClientModule } from '@angular/common/http';
+import { UnfilteredComponent } from './unfiltered/unfiltered.component';
+import { FilteredComponent } from './filtered/filtered.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ToDoComponent
+    ToDoComponent,
+    UnfilteredComponent,
+    FilteredComponent
   ],
   imports: [
     BrowserModule,
